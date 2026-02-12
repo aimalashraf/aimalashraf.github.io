@@ -1,10 +1,83 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>Aimal Ashraf</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Wisignal Technologies Pvt Ltd — Connectivity & IoT Solutions</title>
+  <meta name="description" content="Wisignal Technologies Pvt Ltd — wireless connectivity, IoT integrations, and custom embedded solutions.">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="/assets/logo.svg">
 </head>
 <body>
-  <h1>Welcome</h1>
-  <p>Website hosted on Cloudflare Pages</p>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="/">
+        <img src="/assets/logo.svg" class="brand-logo" alt="Wisignal logo">
+        <span class="brand-text">Wisignal</span>
+      </a>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Wireless connectivity & IoT engineering that scales</h1>
+        <p class="lead">Designing custom embedded systems, reliable wireless links, and end-to-end IoT platforms for enterprises and startups.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">Get in touch</a>
+          <a class="btn ghost" href="#services">Our services</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="container section">
+      <h2>Services</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Embedded Systems</h3>
+          <p>Firmware development, hardware bring-up, sensors and low-power designs.</p>
+        </article>
+        <article class="card">
+          <h3>Wireless Connectivity</h3>
+          <p>LoRaWAN, NB-IoT, Wi‑Fi, Bluetooth and custom RF links with robust protocols.</p>
+        </article>
+        <article class="card">
+          <h3>Cloud & Analytics</h3>
+          <p>Device management, real-time telemetry, dashboards and data pipelines.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="container section alt">
+      <h2>About Wisignal</h2>
+      <p>Wisignal Technologies Pvt Ltd crafts dependable wireless and IoT solutions focused on reliability, low power, and scalable operations. We partner with clients from prototype to production.</p>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <p>For projects or partnerships — email us or request a callback.</p>
+      <ul class="contact-list">
+        <li><strong>Email:</strong> <a href="mailto:hello@wisignal.in">hello@wisignal.in</a></li>
+        <li><strong>Phone:</strong> <a href="tel:+911234567890">+91 12 3456 7890</a></li>
+        <li><strong>Address:</strong> Pune, Maharashtra, India</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Wisignal Technologies Pvt Ltd — All rights reserved.</p>
+      <p class="small">Hosted on GitHub Pages • Custom domain: wisignal.in</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
